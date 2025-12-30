@@ -32,6 +32,7 @@ This system relies on a Computer Vision pipeline:
 1.  **Input Processing:** High-contrast filtering to isolate subjects.
 2.  **Blob Analysis:** Extracting `u` and `v` screen coordinates from the pixel data.
 3.  **Geometry Instancing:** Using the coordinate arrays to drive a dynamic polygon system.
+4.  * **Core Logic:** [View the Python Script](tracking_logic.py) used to calculate the topology network.
 
 ## 📄 License
 This project is open-source. Feel free to use it for your own experiments!
