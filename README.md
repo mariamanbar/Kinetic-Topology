@@ -25,6 +25,7 @@ Project Demo
 1.  Locate the **Movie File In** operator (usually on the far left of the network).
 2.  Drag and drop your own video file onto it.
 3.  Adjust the **Blob Track TOP threshold** if your subject isn't being detected clearly. (u can find it in the node named **thresh1**)
+4.   Locate the **Movie File Out** operator to export the new footage (usually on the far right of the network).
 
 ## 🧠 Under the Hood
 This system relies on a Computer Vision pipeline:
