@@ -6,12 +6,12 @@ Project Demo
 <br>
 ![mushroom tracking](https://github.com/user-attachments/assets/2131c971-a575-4907-a3cc-ba7ab1a60e5a)
 
-## ⚡ Features
+## ★ Features
 * **Real-time Tracking:** Uses high-performance blob tracking to isolate organic movement.
 * **Dynamic Mesh:** Instantly generates geometry that "connects the dots" between moving entities.
 * **Plug & Play:** Simply drag and drop your own footage into the pipeline.
 
-## 🛠️ Getting Started
+## ★ How To Run
 
 ### Prerequisites
 * [TouchDesigner](https://derivative.ca/download) (Non-Commercial or Commercial license).
@@ -27,12 +27,10 @@ Project Demo
 3.  Adjust the **Blob Track TOP threshold** if your subject isn't being detected clearly. (u can find it in the node named **thresh1**)
 4.   Locate the **Movie File Out** operator to export the new footage (usually on the far right of the network).
 
-## 🧠 Under the Hood
+## ★ Under the Hood
 This system relies on a Computer Vision pipeline:
 1.  **Input Processing:** High-contrast filtering to isolate subjects.
 2.  **Blob Analysis:** Extracting `u` and `v` screen coordinates from the pixel data.
 3.  **Geometry Instancing:** Using the coordinate arrays to drive a dynamic polygon system.
 4.  * **Core Logic:** [View the Python Script](tracking_logic.py) used to calculate the topology network.
 
-## 📄 License
-This project is open-source. Feel free to use it for your own experiments!
